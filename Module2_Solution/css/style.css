@@ -1,16 +1,8 @@
-<html>
-<head>
-<meta charset="utf-8">
-<title>Module2 Solution</title>
-<link rel="stylesheet" href="css/style.css">
-<style>
-
-/********** Base styles **********/
 * {
   box-sizing: border-box;
-  position: relative;
 }
 h1 {
+	text-align:center;
   margin-bottom: 15px;
 }
 
@@ -24,26 +16,13 @@ p {
   font-family: Helvetica;
   color: white;
 }
-#p1 {
-  background-color: #DEB887;
-  
 
 
-}
-#p2 {
-  background-color: #DEB887;
-  
-}
-#p3 {
-  background-color: #DEB887;
-  
-}
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
 
-/********** Large devices only **********/
+
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
@@ -87,8 +66,8 @@ p {
   }
 }
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+
+@media (min-width: 950px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     border: 1px solid green;
@@ -132,15 +111,3 @@ p {
 }
 
 </style>
-</head>
-<body>
-	<h1>Our Menu</h1>
-	<div class ="row">
-		<div class ="col-lg-3 col-md-6">Chicken<p id ="p1">Chicken</p></div>
-
-		<div class="col-lg-3 col-md-6">Beef<p id ="p2">Beef </p></div>
-  		<div class="col-lg-3 col-md-6">Shushi<p id ="p3">Shushi s</p>
-  		</div>
-</div>
-</body>
-</html>
